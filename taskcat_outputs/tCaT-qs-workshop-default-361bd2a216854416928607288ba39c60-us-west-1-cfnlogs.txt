@@ -1,0 +1,21 @@
+-----------------------------------------------------------------------------
+Region: us-west-1
+StackName: tCaT-qs-workshop-default-361bd2a216854416928607288ba39c60
+*****************************************************************************
+ResourceStatusReason:  
+The following resource(s) failed to create: [VPCStack].
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                LogicalResourceId                                          ResourceStatusReason
+--------------------------------  ------------------  --------------------------  ---------------------------------------------------------  ---------------------------------------------------------------------------------------------------------------------------------------------------
+2021-03-29 19:41:38.564000+00:00  CREATE_FAILED       AWS::CloudFormation::Stack  tCaT-qs-workshop-default-361bd2a216854416928607288ba39c60  The following resource(s) failed to create: [VPCStack].
+2021-03-29 19:41:37.823000+00:00  CREATE_FAILED       AWS::CloudFormation::Stack  VPCStack                                                   S3 error: The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.
+                                                                                                                                             For more information check http://docs.aws.amazon.com/AmazonS3/latest/API/ErrorResponses.html
+2021-03-29 19:41:37.255000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  VPCStack
+2021-03-29 19:41:32.674000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  tCaT-qs-workshop-default-361bd2a216854416928607288ba39c60  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Monday, 29. March 2021 07:42PM
+-----------------------------------------------------------------------------
+
