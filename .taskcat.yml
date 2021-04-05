@@ -9,7 +9,7 @@ tests:
   default:
     template: ./templates/master.template.yaml
     regions:
-    - us-east-1    
+    - us-west-1    
     parameters:
       AvailabilityZones: "$[taskcat_getaz_2]"
       EmailAddress: email@yourdomain.com
